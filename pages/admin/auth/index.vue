@@ -36,7 +36,7 @@ export default {
   },
   methods:{
     onSubmit(){
-      this.$axios.$post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=AIzaSyChyakLyUgDGdOWT9VNrcxLMatpHwe0ZN4',
+      this.$axios.$post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=',
       {
         email: this.email,
         password: this.password,
